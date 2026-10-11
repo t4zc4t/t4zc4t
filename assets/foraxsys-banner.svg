@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Foraxsys, data, research, engineering">
+  <title>Foraxsys</title>
+  <defs>
+    <linearGradient id="papaya" x1="0" y1="0" x2="574" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF8000"/>
+      <stop offset="0.45" stop-color="#FF8000"/>
+      <stop offset="0.5" stop-color="#FFC27A"/>
+      <stop offset="0.55" stop-color="#FF8000"/>
+      <stop offset="1" stop-color="#FF8000"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-574 0; 574 0; 574 0" keyTimes="0; 0.4; 1" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="carbon" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#151515"/>
+      <rect width="4" height="8" fill="#1b1b1b"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+    <style>
+      .g path { fill:none; stroke:url(#papaya); stroke-width:11; stroke-linecap:square; stroke-linejoin:miter;
+                stroke-dasharray:1; animation:draw 1.1s cubic-bezier(.6,0,.2,1) both; }
+      @keyframes draw { from { stroke-dashoffset:1; opacity:0; } 6% { opacity:1; } }
+      .speed line { stroke-linecap:round; animation:dash 2.4s linear infinite; }
+      @keyframes dash { from { transform:translateX(-260px); opacity:0; } 20% { opacity:1; } to { transform:translateX(1300px); opacity:0; } }
+      .sub { font:600 17px 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; letter-spacing:9px; fill:#cfcfcf;
+              animation:fade 1s ease-out 1.2s both; }
+      .rule { animation:grow 0.9s cubic-bezier(.6,0,.2,1) 1s both; transform-origin:600px 0; }
+      @keyframes fade { from { opacity:0; transform:translateY(6px); } }
+      @keyframes grow { from { transform:scaleX(0); } }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#carbon)"/>
+    <polygon points="0,0 70,0 20,300 0,300" fill="#FF8000"/>
+    <polygon points="84,0 104,0 54,300 34,300" fill="#47C7FC"/>
+    <polygon points="1130,0 1200,0 1200,300 1080,300" fill="#FF8000" opacity="0.9"/>
+    <g class="speed" stroke-width="2">
+      <line x1="0" y1="62" x2="180" y2="62" stroke="#FF8000" style="animation-delay:0s"/>
+      <line x1="0" y1="238" x2="240" y2="238" stroke="#47C7FC" style="animation-delay:0.8s"/>
+      <line x1="0" y1="112" x2="120" y2="112" stroke="#FF8000" opacity="0.6" style="animation-delay:1.5s"/>
+      <line x1="0" y1="270" x2="160" y2="270" stroke="#FF8000" opacity="0.5" style="animation-delay:1.9s"/>
+    </g>
+    <g class="g" transform="translate(230.5,48) scale(1.35) skewX(-12)">
+      <path d="M 50,6 H 6 V 74" pathLength="1" style="animation-delay:0.00s"/>
+      <path d="M 6,40 H 40" pathLength="1" style="animation-delay:0.05s"/>
+      <path d="M 90,6 H 124 V 64 L 114,74 H 80 V 16 Z" pathLength="1" style="animation-delay:0.09s"/>
+      <path d="M 154,74 V 6 H 188 L 198,16 V 30 L 188,40 H 154" pathLength="1" style="animation-delay:0.18s"/>
+      <path d="M 178,40 L 198,74" pathLength="1" style="animation-delay:0.23s"/>
+      <path d="M 228,74 V 16 L 238,6 H 262 L 272,16 V 74" pathLength="1" style="animation-delay:0.27s"/>
+      <path d="M 228,46 H 272" pathLength="1" style="animation-delay:0.32s"/>
+      <path d="M 302,6 L 346,74" pathLength="1" style="animation-delay:0.36s"/>
+      <path d="M 346,6 L 302,74" pathLength="1" style="animation-delay:0.41s"/>
+      <path d="M 420,6 H 386 L 376,16 V 30 L 386,40 H 410 L 420,50 V 64 L 410,74 H 376" pathLength="1" style="animation-delay:0.45s"/>
+      <path d="M 450,6 L 472,40 L 494,6" pathLength="1" style="animation-delay:0.54s"/>
+      <path d="M 472,40 V 74" pathLength="1" style="animation-delay:0.59s"/>
+      <path d="M 568,6 H 534 L 524,16 V 30 L 534,40 H 558 L 568,50 V 64 L 558,74 H 524" pathLength="1" style="animation-delay:0.63s"/>
+    </g>
+    <rect class="rule" x="330" y="196" width="540" height="2" fill="#FF8000"/>
+    <text class="sub" x="600" y="236" text-anchor="middle">DATA  ·  RESEARCH  ·  ENGINEERING</text>
+  </g>
+</svg>
