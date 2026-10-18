@@ -48,15 +48,14 @@ I work where data, research and software meet. Each project starts with a questi
 ### Workflow
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#2b2b2b','primaryTextColor':'#ffffff','primaryBorderColor':'#FF8000','lineColor':'#FF8000','secondaryColor':'#2b2b2b','tertiaryColor':'#2b2b2b','fontFamily':'Inter, sans-serif'}}}%%
+%%{init: {'theme':'base','flowchart':{'nodeSpacing':24,'rankSpacing':26,'padding':8},'themeVariables':{'primaryColor':'#2b2b2b','primaryTextColor':'#ffffff','primaryBorderColor':'#FF8000','lineColor':'#FF8000','secondaryColor':'#2b2b2b','tertiaryColor':'#2b2b2b','fontFamily':'Inter, sans-serif'}}}%%
 flowchart LR
     Q([Question]) --> S[Sources]
     S --> C[Clean]
     C --> T[Test]
     T --> V{Holds up?}
     V -- no --> S
-    V -- yes --> R[Write up]
-    R --> P([Publish])
+    V -- yes --> P([Publish])
 ```
 
 ### Standards
