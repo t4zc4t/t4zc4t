@@ -105,6 +105,6 @@ I work where data, research and software meet. Each project starts with a questi
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FF8000,40:FF8000,100:111111&height=110&section=footer">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:FF8000%2C40:FF8000%2C100:111111&height=110&section=footer">
   <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8000,40:FF8000,100:FFD9B3&height=110&section=footer">
 </picture>
