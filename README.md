@@ -7,8 +7,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=t4zc4t&label=profile%20views&color=FF8000&style=flat-square" alt="profile views"/>
-  <img src="https://img.shields.io/github/followers/t4zc4t?label=followers&style=flat-square&labelColor=2b2b2b&color=FF8000" alt="followers"/>
   <img src="https://img.shields.io/badge/sources-official%20only-FF8000?style=flat-square&labelColor=2b2b2b" alt="official sources only"/>
   <img src="https://img.shields.io/badge/methods-open-47C7FC?style=flat-square&labelColor=2b2b2b" alt="open methods"/>
 </p>
@@ -52,13 +50,13 @@ I work where data, research and software meet. Each project starts with a questi
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#2b2b2b','primaryTextColor':'#ffffff','primaryBorderColor':'#FF8000','lineColor':'#FF8000','secondaryColor':'#2b2b2b','tertiaryColor':'#2b2b2b','fontFamily':'Inter, sans-serif'}}}%%
 flowchart LR
-    Q([Question]) --> S[Sourcing]
-    S --> C[Cleaning]
-    C --> T[Testing]
+    Q([Question]) --> S[Sources]
+    S --> C[Clean]
+    C --> T[Test]
     T --> V{Holds up?}
     V -- no --> S
-    V -- yes --> R[Visuals and write up]
-    R --> P([Published])
+    V -- yes --> R[Write up]
+    R --> P([Publish])
 ```
 
 ### Standards
@@ -90,8 +88,8 @@ flowchart LR
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=t4zc4t&show_icons=true&hide_border=true&bg_color=1a1a1a&title_color=FF8000&icon_color=FF8000&text_color=e6e6e6&ring_color=FF8000&rank_icon=github&custom_title=Foraxsys">
-    <img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=t4zc4t&show_icons=true&hide_border=true&bg_color=ffffff&title_color=FF8000&icon_color=FF8000&text_color=2b2b2b&ring_color=FF8000&rank_icon=github&custom_title=Foraxsys">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=t4zc4t&show_icons=true&hide_border=true&bg_color=1a1a1a&title_color=FF8000&icon_color=FF8000&text_color=e6e6e6&ring_color=FF8000&rank_icon=github&custom_title=Foraxsys&hide=stars%2Cissues%2Ccontribs">
+    <img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=t4zc4t&show_icons=true&hide_border=true&bg_color=ffffff&title_color=FF8000&icon_color=FF8000&text_color=2b2b2b&ring_color=FF8000&rank_icon=github&custom_title=Foraxsys&hide=stars%2Cissues%2Ccontribs">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=t4zc4t&layout=compact&hide_border=true&bg_color=1a1a1a&title_color=FF8000&text_color=e6e6e6">
