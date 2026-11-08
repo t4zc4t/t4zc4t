@@ -30,6 +30,7 @@ Currently building **Jocasta**, an intelligence workstation where every record t
   <a href="https://github.com/t4zc4t/Jocasta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jocasta-mafia.svg"><img width="49%" src="assets/cards/jocasta-agency.svg" alt="Jocasta"></picture></a>
   <a href="https://github.com/t4zc4t/market-study"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/market-study-mafia.svg"><img width="49%" src="assets/cards/market-study-agency.svg" alt="Market Study"></picture></a>
   <a href="https://github.com/t4zc4t/Shikkaku"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/shikkaku-mafia.svg"><img width="49%" src="assets/cards/shikkaku-agency.svg" alt="Shikkaku"></picture></a>
+  <a href="https://github.com/t4zc4t/texz"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/texz-mafia.svg"><img width="49%" src="assets/cards/texz-agency.svg" alt="texz"></picture></a>
 </p>
 
 <img src="assets/heads/research.svg" height="40" alt="Research"/>
