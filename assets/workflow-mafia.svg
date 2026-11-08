@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 200" width="920" height="200" role="img" aria-label="Workflow: question, sources, clean, test, check, publish or revisit data">
+<title>Workflow</title>
+<style>
+.t { font-family:Georgia, 'Times New Roman', 'Noto Serif', serif; font-size:16px; font-weight:600; fill:#ede6da; }
+.s { font-size:13.5px; }
+.l { font-family:Georgia, 'Times New Roman', serif; font-style:italic; font-size:12.5px; fill:#9c8b74; letter-spacing:.4px; }
+.f { stroke:#c8283c; stroke-width:1.6; stroke-dasharray:6 5; animation:flow 1.2s linear infinite; }
+.b { stroke:#c8a97e; }
+@keyframes flow { to { stroke-dashoffset:-22; } }
+.n { animation:pop .5s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes pop { from { opacity:0; transform:translateY(6px); } }
+@media (prefers-reduced-motion: reduce) { .f, .n { animation:none; } }
+</style>
+<rect width="920" height="200" rx="10" fill="#0f0c0c"/>
+<line x1="150" y1="95" x2="182" y2="95" class="f"/><path d="M181,90 L189,95 L181,100" fill="#c8283c"/><line x1="300" y1="95" x2="332" y2="95" class="f"/><path d="M331,90 L339,95 L331,100" fill="#c8283c"/><line x1="440" y1="95" x2="472" y2="95" class="f"/><path d="M471,90 L479,95 L471,100" fill="#c8283c"/><line x1="580" y1="95" x2="632" y2="95" class="f"/><path d="M631,90 L639,95 L631,100" fill="#c8283c"/><line x1="736" y1="95" x2="772" y2="95" class="f"/><path d="M771,90 L779,95 L771,100" fill="#c8283c"/><path d="M688,139 V177 H245 V126" class="f b" fill="none"/><path d="M240,127 L245,119 L250,127" fill="#c8a97e"/><g class="n" style="animation-delay:0.00s"><rect x="30" y="72" width="120" height="46" rx="23" fill="#181212" stroke="#c8283c" stroke-width="1.6"/><text x="90.0" y="100" text-anchor="middle" class="t">Question</text></g><g class="n" style="animation-delay:0.15s"><rect x="190" y="72" width="110" height="46" rx="6" fill="#181212" stroke="#c8283c" stroke-width="1.6"/><text x="245.0" y="100" text-anchor="middle" class="t">Sources</text></g><g class="n" style="animation-delay:0.30s"><rect x="340" y="72" width="100" height="46" rx="6" fill="#181212" stroke="#c8283c" stroke-width="1.6"/><text x="390.0" y="100" text-anchor="middle" class="t">Clean</text></g><g class="n" style="animation-delay:0.45s"><rect x="480" y="72" width="100" height="46" rx="6" fill="#181212" stroke="#c8283c" stroke-width="1.6"/><text x="530.0" y="100" text-anchor="middle" class="t">Test</text></g><g class="n" style="animation-delay:.60s"><polygon points="688,51 736,95 688,139 640,95" fill="#181212" stroke="#c8a97e" stroke-width="1.6"/><text x="688" y="100" text-anchor="middle" class="t s">Check</text></g><g class="n" style="animation-delay:.75s"><rect x="780" y="72" width="112" height="46" rx="23" fill="#c8283c"/><text x="836" y="100" text-anchor="middle" class="t" style="fill:#fbf7ef">Publish</text></g><text x="466.5" y="171" text-anchor="middle" class="l">fails · revisit data</text><text x="758" y="85" text-anchor="middle" class="l">holds</text>
+</svg>
