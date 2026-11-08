@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://parc-ferme.pages.dev"><img src="https://img.shields.io/badge/Parc%20Ferm%C3%A9-live-C8283C?style=flat-square&labelColor=1c1716" alt="Parc Fermé live"></a>
+  <a href="https://the-goat-hunter.pages.dev"><img src="https://img.shields.io/badge/The%20Goat%20Hunter-live-C8283C?style=flat-square&labelColor=1c1716" alt="The Goat Hunter live"></a>
   <a href="https://market-study-7mg.pages.dev"><img src="https://img.shields.io/badge/Market%20Study-live-C8283C?style=flat-square&labelColor=1c1716" alt="Market Study live"></a>
   <a href="https://t4zc4t.github.io/Jocasta/"><img src="https://img.shields.io/badge/Jocasta-preview-C8A97E?style=flat-square&labelColor=1c1716" alt="Jocasta preview"></a>
 </p>
@@ -25,11 +26,10 @@ Currently building **Jocasta**, an intelligence workstation where every record t
 
 <p align="center">
   <a href="https://github.com/t4zc4t/parc-ferme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/parc-ferme-mafia.svg"><img width="49%" src="assets/cards/parc-ferme-agency.svg" alt="Parc Fermé"></picture></a>
+  <a href="https://the-goat-hunter.pages.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/the-goat-hunter-mafia.svg"><img width="49%" src="assets/cards/the-goat-hunter-agency.svg" alt="The Goat Hunter"></picture></a>
   <a href="https://github.com/t4zc4t/Jocasta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jocasta-mafia.svg"><img width="49%" src="assets/cards/jocasta-agency.svg" alt="Jocasta"></picture></a>
   <a href="https://github.com/t4zc4t/market-study"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/market-study-mafia.svg"><img width="49%" src="assets/cards/market-study-agency.svg" alt="Market Study"></picture></a>
   <a href="https://github.com/t4zc4t/Shikkaku"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/shikkaku-mafia.svg"><img width="49%" src="assets/cards/shikkaku-agency.svg" alt="Shikkaku"></picture></a>
-  <a href="https://github.com/t4zc4t/Xpresence"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/xpresence-mafia.svg"><img width="49%" src="assets/cards/xpresence-agency.svg" alt="Xpresence"></picture></a>
-  <a href="https://github.com/t4zc4t/Codeveil"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/codeveil-mafia.svg"><img width="49%" src="assets/cards/codeveil-agency.svg" alt="Codeveil"></picture></a>
 </p>
 
 <img src="assets/heads/research.svg" height="40" alt="Research"/>
